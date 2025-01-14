@@ -1,0 +1,32 @@
+{
+    "data": {
+        "header" : {
+            "navLinks" : [
+                { "text": "Home", "link": "/" },
+                { "text": "About Us", "link": "/about" },
+                { "text": "Kursplan", "link": "/kursplan" },
+                { "text": "Contact Us", "link": "/contact" }
+            ],
+            "logo": "/logo.png",
+            "button": { "link": "/login", "text": "Login" }
+        },
+        "home": {
+            "hero" : {
+                "title" : "Vibes. Individuell. Power.",
+                "p" : "Wir sind die dynamischen Schwestern, die dir zeigen, wie man mit Spaß und Leidenschaft fit wird! In verschiedenen Locations im pulsierenden Münchner Westen",
+                "buttonKurses" : { "link" : "/kursplan", "text" : "Unsere Kersplan" },
+                "buttonContact" : { "link" : "/contact", "text" : "Contact Us" }
+            }
+        },
+        "footer" : {
+            "links" : [
+                { "text": "Home", "link": "/" },
+                { "text": "About Us", "link": "/about" },
+                { "text": "Kursplan", "link": "/kursplan" },
+                { "text": "Contact Us", "link": "/contact" },
+                { "text": "Impressum", "link": "/impressum" }  
+            ],
+            "copyright" : "All rights"    
+    }
+}
+}
