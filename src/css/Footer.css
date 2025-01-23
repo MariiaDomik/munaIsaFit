@@ -1,0 +1,28 @@
+footer ul {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+.footer-links li {
+  display: inline-block;
+  padding: 8px 20px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo-social {
+  height: 30px;
+  transition: .3s ease-in-out;
+}
+
+.logo-social:hover {
+  transform: scale(1.2);
+}
+
+.logo-footer {
+  width: 130px;
+}

@@ -1,0 +1,14 @@
+{
+    "kursplan" : [
+        { "id": "1", "kurs" : "", "day" : "montag", "": "", "price" : "" },
+        { "id": "2", "kurs" : "", "day" : "montag", "": "", "price" : "" },
+        { "id": "3", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
+        { "id": "4", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
+        { "id": "5", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
+        { "id": "6", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
+        { "id": "7", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
+        { "id": "8", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
+        { "id": "9", "kurs" : "", "day" : "montag", "": "", "price" : ""  }
+    ]
+}
+    

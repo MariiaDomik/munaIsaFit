@@ -1,48 +1,69 @@
 {
+    "EmailJS-Pass" : "frbh ktnk jxpv mhnb",
+    "contentData" : {
     "locations" : [
-        { "id": "1", "adresse" : "Schulsporthalle GS, Gotzmannstr. 19", "link" : "", "kommentar" : "*Kooperation Freizeitsport München", "location" : { "latitude" : "", "longitude" : "" }},
-        { "id": "2", "adresse" : "ASZ, Am Aubinger Wasserturm 30", "link" : "", "location" : { "latitude" : "", "longitude" : "" }},
-        { "id": "3", "adresse" : "TTC München, Stockacher Str. 9", "link" : "", "location" : { "latitude" : "", "longitude" : "" }}
+        { "id": "1", "adresse" : "Schulsporthalle GS, Gotzmannstr. 19", "tel" : "", "link" : "", "kommentar" : "*Kooperation Freizeitsport München", "location" : { "latitude" : "48.160459", "longitude" : "11.411604" }},
+        { "id": "2", "adresse" : "ASZ, Am Aubinger Wasserturm 30", "tel" : "", "link" : "", "location" : { "latitude" : "48.152817", "longitude" : "11.416508" }},
+        { "id": "3", "adresse" : "TTC München, Stockacher Str. 9", "tel" : "", "link" : "", "location" : { "latitude" : "48.150906", "longitude" : "11.442572" }}
     ],
     "emails" : [
         { "id": "1", "email": "munaisafit@outlook.de" },
         { "id": "2", "email": "munahebeisen@hotmail.de" }
     ], 
-    "kurse" : [
-        { "id" : "1", "name" : "Zumba®", 
+    "courses" : [
+        { "id" : "1", "name" : "Zumba®",
          "description" : "Beim Zumba® handelt es sich um ein Tanz-Workout, bei dem Aerobic-Bewegungen mit tänzerischen Elementen kombiniert werden.",
          "article" : "Zumba® – so heißt ein beliebter Fitnesstrend aus Lateinamerika. Das Tanz-Fitness-Programm, das in den 1990er-Jahren durch den Kolumbianer Alberto Perez entwickelt wurde, ist in den USA schon lange beliebt. Inzwischen gibt es aber auch in Deutschland seit Längerem ein großes Angebot an Zumba®-Kursen. Zumba® stellt eine Mischung aus Tanz und Aerobic dar: Kniebeugen oder Ausfallschritte gehören ebenso zum Fitness-Workout wie tänzerische Bewegungen im Rhythmus zu lateinamerikanischer Musik.",
-         "email" : "1" },
-        { "id" : "1", "name" : "Strong Nation® 60 mit Stretch&Relax 30min.", 
-         "description" : "",
+         "email" : "1",
+        "url" : "",
+         "img": "/zumba.jpg"
+      },
+        { "id" : "2", "name" : "Strong Nation® 60 mit Stretch&Relax 30min.", 
+          "img" : "/strongNation.jpg",
+          "description" : "",
          "article" : "",
-          "email" : "2" },
-        { "id" : "1", "name" : "Pilates", 
+          "email" : "2" ,
+          "url" : "" },
+        { "id" : "3", "name" : "Pilates",  
+         "img" : "/pilates.jpg",
          "description" : "Pilates ist ein ganzheitliches Ganzkörpertraining, bei dem Atmung und Bewegung in Einklang gebracht werden. ",
          "article" : "PILATES ist eine sanfte, aber überaus wirkungsvolle Trainingsmethode für den Körper und auch den Geist - ein systematisches Körpertraining, erfunden und entwickelt von Joseph H. Pilates. Einzelne Muskeln oder Muskelpartien werden ganz gezielt aktiviert, entspannt oder gedehnt. Nicht die Quantität, sondern die Qualität der PILATES-Übungen zählt und die Atmung wird mit den Bewegungen koordiniert. Besonderes Augenmerk gilt der Körpermitte. Das Training der Tiefenmuskulatur im Becken und in der Taille verbessert die Beweglichkeit. Becken und Schulterbereich lassen sich dadurch noch freier gegeneinander verdrehen. Durch die Aktivierung dieses Kraftzentrums (Powerhouse) werden Taille und Hüfte - sozusagen als Nebenwirkung - schlanker. Pilates bringt Muskeln und Gelenke wieder in Schwung, ohne sie zu belasten. Wer PILATES trainiert, ändert bald seine Bewegungs- und Haltungsgewohnheiten und nimmt so das Training mit in den Alltag. Auch können viele der PILATES-Übungen wirkungsvoll während der üblichen Tagesaktivitäten oder anderer Sportarten genützt werden. Menschen, die PILATES trainieren, wirken größer, aufrechter, gelassener und schlanker - einfach natürlicher.",
-          "email" : "1" },
-        { "id" : "1", "name" : "Bodyforming",
+          "email" : "1",
+          "url" : ""  },
+        { "id" : "4", "name" : "Bodyforming", 
+          "img" : "/bodyforming.jpg",
          "description" : "",
          "article" : "",
-          "email" : "1" },
-        { "id" : "1", "name" : "Thairobic",
+          "email" : "1",
+          "url" : ""  },
+        { "id" : "5", "name" : "Thairobic", 
+        "img" : "/thairobic.jpg",
          "description" : "Thairobic ist ein schweißtreibendes Ausdauerworkout, sozusagen eine Mischung aus Boxelementen und Aerobic. ",
          "article" : "Thairobic gehört zu den neueren Sportkursen, bei denen Frauen und Männer mächtig ins Schwitzen geraten. Das Beste: Die Kombination aus Aerobic und asiatischer Kampfsportarten macht soviel Spaß, dass man die Intensität des Trainings gar nicht merkt. Thairobic hat sich in Deutschland als Fitnesstrend behauptet und wird in vielen Studios angeboten.",
-          "email" : "1" },
-        { "id" : "1", "name" : "Strong Nation®",
+          "email" : "1",
+          "url" : ""  },
+        { "id" : "6", "name" : "Strong Nation®", 
+          "img" : "/strongNation.jpg",
          "description" : "STRONG Nation® ist ein High-Intensity-Intervall-Training (H.I.I.T),das den gesamten Körper fordert. Dieses Fitnessprogramm vereint Eigengewichts-, Muskel-, Cardio- und plyometrisches Training",
          "article" : "STRONG Nation® vereint Eigengewichts-, Muskel-, Cardio- und plyometrisches Training, bei dem die Bewegungen synchron zur extra dafür komponierten Musik ausgeführt werden. Da sitzt einfach alles perfekt: Jeder Squat, Lunge, jeder Burpee - sie alle werden durch die Musik angetrieben. So schaffst du auch die letzte Wiederholung und vielleicht sogar noch fünf weitere. In jedem Kurs verbrennst du Kalorien und tärkst dabei deine Arm-, Bein-, Bauch- und Po-Muskulatur. Plyometrische bzw. explosive Übungen wie z. B. Knieheben, Burpees, und Jumping Jacks wechseln sich mit isometrischen Übungen wie z B. Lunges, Squats, und Kickbox-Bewegungen ab. STRONG Nation™ Trainer wechseln Musik und Übungen regelmäßig aus, damit du deine Grenzen immer weiter stecken kannst. STRONG Nation® bietet dir auch Optionen, um deine speziellen Ziele zu erreichen. Der Original-STRONG Nation® Kurs ist ein anspruchsvoller, einstündiger Kurs, bei dem der gesamte Körper eingesetzt wird. Er eignet sich perfekt, um deine ultimativen Fitness-Ziele zu erreichen - und dir dann wieder neue zu setzen. STRONG Nation® bietet auch eine Option für einen 30-minütigen Kurs. Hier wird ein Ganzkörperworkout in 30 Minuten absolviert. Mit diesem wirkungsvollen und intensiven Kurs lässt sich Fitness mit jedem Zeitplan vereinbaren.",
-          "email" : "2" }
+          "email" : "2",
+          "url" : ""  }
     ],
-    "kursplan" : [
-        { "id": "1", "kurs" : "", "day" : "montag", "": "", "price" : "" },
-        { "id": "1", "kurs" : "", "day" : "montag", "": "", "price" : "" },
-        { "id": "1", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
-        { "id": "1", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
-        { "id": "1", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
-        { "id": "1", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
-        { "id": "1", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
-        { "id": "1", "kurs" : "", "day" : "montag", "": "", "price" : ""  },
-        { "id": "1", "kurs" : "", "day" : "montag", "": "", "price" : ""  }
-    ]
+    "partner" : [
+        { "name" : "Feizeit Sport", "logo" : "", "url" : "" }
+    ], 
+    
+    "schedule" : [
+      { "id": "1", "courseId" : "2", "day" : "montag", "time": "19:00-19:45 Uhr", "status": "1", "locationId": "1", "price" : "12x12€ = 144€" },
+      { "id": "2", "courseId" : "1", "day" : "montag", "time": "19:45-20:30 Uhr", "status": "0", "locationId": "2", "price" : "" },
+      { "id": "3", "courseId" : "1", "day" : "montag", "time": "18:00-18:30 Uhr", "status": "0", "locationId": "2", "price" : ""  },
+      { "id": "4", "courseId" : "3", "day" : "dienstag", "time": "17:00-18:30 Uhr", "status": "0", "locationId": "2", "price" : ""  },
+      { "id": "5", "courseId" : "4", "day" : "dienstag", "time": "20:00-20:30 Uhr", "status": "0", "locationId": "1", "price" : ""  },
+      { "id": "6", "courseId" : "5", "day" : "dienstag", "time": "20:00-21:30 Uhr", "status": "1", "locationId": "1", "price" : "13x6€ = 78€"  },
+      { "id": "7", "courseId" : "4", "day" : "donnerstag", "time": "19:15-19:50 Uhr", "status": "0", "locationId": "3", "price" : ""  },
+      { "id": "8", "courseId" : "3", "day" : "donnerstag", "time": "19:20-20:30 Uhr", "status": "0", "locationId": "3", "price" : ""  },
+      { "id": "9", "courseId" : "6", "day" : "freitag", "time": "18:15-19:30 Uhr", "status": "1", "locationId": "3", "price" : "15x6€ = 90€"  },
+      { "id": "9", "courseId" : "1", "day" : "freitag", "time": "19:00-20:45 Uhr", "status": "0", "locationId": "3", "price" : ""  }
+  ]
+}
 }

@@ -1,29 +1,32 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import '../css/Footer.css'
 
 function Footer(props) {
-    const { logo, description, menu, copyrigth } = props;
+    const { logo, links, copyrigth, social } = props;
   return (
     <footer>
-        <div id='footer-menu'>
-       <div>
-        <img src={logo} alt="" />
-        <p>{description}</p>
-       </div>
-       {
-        menu.map((menuItem) => (
-            <ul><h2>{menuItem.title}</h2>
-                {menuItem.links.map((item, i) => (
+        <img className='logo-footer' src={logo} alt="" />
+            <ul className='footer-links'>
+                {links.map((item, i) => (
                     <li key={i}>
-                        {item.img && <img src={item.img} />}
-                        {item}
+                        <Link to={item.link}>{item.text}</Link>
                     </li>
                 ))}
             </ul>
-        ))
-       }
-       </div>
+       
+            <ul className='footer-social'>
+                {social.map((item, i) => (
+                    <li key={i} className='li-social'>
+                        {item.img && <img className='logo-social' src={item.img} />}
+                        {/* {item.title} */}
+                    </li>
+                ))}
+            </ul>
+       
+       
        <div id="copyright">
-        <p>{copyrigth.text1} <img src={copyrigth.img} alt="" /> {copyrigth.text2}</p>
+        <p>{copyrigth}</p>
        </div>
     </footer>
   )
