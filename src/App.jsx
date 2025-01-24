@@ -17,8 +17,11 @@ function App() {
     const headerData = staticDataManager.getHeaderData();
     const footerData = staticDataManager.getFooterData();
   
+   // Dynamically set basename based on the environment
+   const baseName = import.meta.env.VITE_BASE_PATH;
+  
   return (
-    <Router basename="/munaIsaFit">
+    <Router basename={baseName}>
       <Navigation {...headerData} />
       <main>
         <Routes>
