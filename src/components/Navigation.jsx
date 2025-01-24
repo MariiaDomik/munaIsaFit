@@ -12,9 +12,11 @@ function Navigation(props) {
     setNavbarOpen(!navbarOpen);
   }
 
+  const basePath = import.meta.env.VITE_BASE_PATH;
+
   return (
     <nav>
-      <img src={logo} alt='logo'/> 
+      <img src={basePath + logo} alt='logo'/> 
       <button className='burger-button ' onClick={handleToggle}></button>
       <div className='nav-mobile'>
          { navbarOpen && (

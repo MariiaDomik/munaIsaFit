@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 function ScheduleCard(props) {
     const { course } = props;
+    const basePath = import.meta.env.VITE_BASE_PATH;
+
   return (
     
     <div key={course.id} className='schedule-item' >
@@ -19,7 +21,7 @@ function ScheduleCard(props) {
           <button><Link to={`/courses/${course.id}`} state={{course: {...course, ...course.course}}}>Mehr erfahren</Link></button>
           <Link className='button' to={`/contact/anmeldung/${course.id}`} state={{course:course}}>Anmelden</Link>
           </div>
-          <img src={course.course.img} alt="" />
+          <img src={basePath + course.course.img} alt="" />
         </div>
   )
 }

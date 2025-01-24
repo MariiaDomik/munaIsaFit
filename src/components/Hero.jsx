@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 
 function Hero(props) {
   const { title, p, buttonCourses, buttonContact, img } = props;
+  const basePath = import.meta.env.VITE_BASE_PATH;
+  
   return (
     <div className='hero-container'>
       
-      <img className='hero-img hero-text-right-img' src={img}/>
+      <img className='hero-img hero-text-right-img' src={basePath + img}/>
        <div className='hero-text'>
         {/* <h1>{title}</h1> */}
         <h1>Vibes. <span>Individuell.</span> Power.</h1>

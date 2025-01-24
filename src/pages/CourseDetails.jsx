@@ -11,6 +11,8 @@ function CourseDetails() {
     const course = location.state?.course;
     const data = useCourseData();
 
+    const basePath = import.meta.env.VITE_BASE_PATH;
+
     if (!data) return <div className='loading'>Loading</div>;
 
     if (!course) return <div>Leider der Kurs ist nicht gefunden</div>
@@ -18,7 +20,7 @@ function CourseDetails() {
     return (
     <section className='course-page-container'>
         <article>
-        <img src={course.img} alt="" />
+        <img src={basePath + course.img} alt="" />
        <h1>{course.name}</h1>
        <p>{course.description}</p>
        

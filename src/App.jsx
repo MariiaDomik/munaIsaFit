@@ -18,10 +18,10 @@ function App() {
     const footerData = staticDataManager.getFooterData();
   
    // Dynamically set basename based on the environment
-   const baseName = import.meta.env.VITE_BASE_PATH;
+   const basePath = import.meta.env.VITE_BASE_PATH;
   
   return (
-    <Router basename={baseName}>
+    <Router basename={basePath}>
       <Navigation {...headerData} />
       <main>
         <Routes>
