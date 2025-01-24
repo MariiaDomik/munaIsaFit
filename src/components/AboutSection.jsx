@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function AboutSection(props) {
     const { title, img, text, page } = props;
@@ -7,10 +8,11 @@ function AboutSection(props) {
         <div className='about'>
         <h2>{title}</h2>
         
-            <p>{text}</p>
+            <p className='p-home'>{text}</p>
         </div>
         
         <div className='img' style={{backgroundImage: `url(${img})`}}></div>
+        <div className='line'><Link className='card-link' to={`/about`}><span className=''>Mehr erfahren</span></Link></div>
     </div>
   )
 }

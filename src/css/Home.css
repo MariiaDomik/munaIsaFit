@@ -82,17 +82,15 @@ main section {
   }
 
   .partners-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+    text-align: center;
     gap: 15px;
     padding: 30px 0;
   }
   .partner a {
     width: fit-content;
-  }
-  .partner p {
-    width: 100px;
   }
   .partner img {
     width: 100px;
@@ -115,6 +113,7 @@ main section {
       padding: 10px 15px;
     }
     .partners-container {
+      display: flex;
       justify-content: space-evenly;
   }
   }

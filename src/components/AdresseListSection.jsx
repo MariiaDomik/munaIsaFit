@@ -7,7 +7,7 @@ function AdresseListSection(props) {
   return (
     <div className='adresse-section'>
         <h2>Orten</h2>
-        <ul>
+        <ul >
             { locations.map((adresse) => (
               // <AdresseCard key={adresse.id} adresse={adresse} /> 
               <li key={adresse.id}>{adresse.adresse}</li> 

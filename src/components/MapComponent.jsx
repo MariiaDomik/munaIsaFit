@@ -43,10 +43,12 @@ const MapComponent = (props) => {
     {selectedLocation && (
         <div>
         <h2>An dieisen Ort finden folgende Kursen statt:</h2>
+        <div className="kursplan">
         {filteredSchedule && filteredSchedule.map((course) =>(
             
             <CourseDatails key={course.id} course={course} />
         ))}
+        </div>
         </div>
     )}
     </div>

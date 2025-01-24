@@ -83,12 +83,16 @@
         border-radius: 10px 100px;
     }
 
+
+    
+}
+
+@media (min-width: 1024px) {
+    
     .hero-container .buttons {
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
         height: 100px;
     }
-
-    
 }

@@ -48,6 +48,7 @@ nav button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 99;
     backdrop-filter: blur(10px);
     transition: 0.3s ease-in-out;
     background-image: linear-gradient(88.86deg, #ffdecc99 -7.36%, #feccbf86 14.22%, #feccbf9a 29.17%, #c9a5df97 62.88%, #b7c2f4ab 91.68%, #b0daf2a8 101.65%);
