@@ -25,9 +25,9 @@ function Footer(props) {
             </ul>
        
        
-       <div id="copyright">
+       {/* <div id="copyright">
         <p>{copyrigth}</p>
-       </div>
+       </div> */}
     </footer>
   )
 }

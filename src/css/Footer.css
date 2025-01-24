@@ -41,8 +41,15 @@ footer ul {
 }
 
 @media (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .footer-links {
     display: flex;
+    flex-direction: row;
+    
+    gap: 30px;
     justify-content: space-evenly;
   }
 }
