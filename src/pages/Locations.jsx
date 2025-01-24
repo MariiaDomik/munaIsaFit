@@ -10,7 +10,8 @@ function Locations() {
 
   return (
     <section>
-        <h1>Orten, wo wir unsere Trainingen führen</h1>
+        <h2>Dein Fitness in Aubing</h2>
+        <p>Wir führen unsere Trainings-programmen in verschiedene Orten in Aubing. </p>
         <MapComponent locations={data.locations} />
         <AdresseListSection locations={data.locations} />
     </section>

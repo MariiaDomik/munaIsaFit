@@ -20,12 +20,12 @@ function Navigation(props) {
          { navbarOpen && (
           <div className='nav-mobile-menu'>
             <button className='close-mobile-menu-button' onClick={handleToggle}></button>
-          <MenuItems navLinks={navLinks} button={null} onClick={handleToggle}/>
+          <MenuItems navLinks={navLinks} button={button} onClick={handleToggle}/>
           </div>
          ) }
       </div>
       <div className='nav-desktop'>
-        <MenuItems navLinks={navLinks} button={null} onClick={{}}/>
+        <MenuItems navLinks={navLinks} button={button} onClick={{}}/>
         {/* <Link className='button' to={button.link}>{button.text}</Link> */}
         </div>
     </nav>

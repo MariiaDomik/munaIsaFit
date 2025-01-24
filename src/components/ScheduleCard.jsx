@@ -7,16 +7,14 @@ function ScheduleCard(props) {
     
     <div key={course.id} className='schedule-item' >
           <div>
-          <h4>{course.name}:</h4>
+          <h3>{course.name}:</h3>
           <p>
-            <span>Datum:</span> {course.day} {course.time}
+            <span>Wochentag und Zeit:</span> {course.day} {course.time}
           </p>
           <p>
             <span>Adresse:</span> {course.location.adresse}
           </p>
-          <p>
-            {/* <strong>Свободных мест:</strong> {selectedCourse?.spots} */}
-          </p>
+          {course.price &&<p>Prise: {course.price}</p>}
           
           <button><Link to={`/courses/${course.id}`} state={{course: {...course, ...course.course}}}>Mehr erfahren</Link></button>
           <Link className='button' to={`/contact/anmeldung/${course.id}`} state={{course:course}}>Anmelden</Link>

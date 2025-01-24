@@ -4,24 +4,24 @@
             "navLinks" : [
                 { "id" : "1", "hash" : "0", "text": "Home", "link": "/" },
                 { "id" : "2", "hash" : "0", "text": "About Us", "link": "/about" },
-                { "id" : "3", "hash" : "1", "text": "Unsere Kursen", "link": "#courses" },
                 { "id" : "4", "hash" : "0", "text": "Kursplan", "link": "/courses" },
-                { "id" : "4", "hash" : "0", "text": "Orten", "link": "/locations" },
-                { "id" : "5", "hash" : "0", "text": "Contact Us", "link": "/contact" }
+                { "id" : "5", "hash" : "0", "text": "Orten", "link": "/locations" }
+                
             ],
             "logo": "/Muna2.PNG",
-            "button": { "link": "/login", "text": "Login" }
+            "button": { "link": "/contact", "text": "Contact Us" }
         },
         "home": {
             "hero" : {
                 "img" : "/hero.jpg",
                 "title" : "Vibes. Individuell. Power.",
-                "p" : "Wir sind die dynamischen Schwestern, die dir zeigen, wie man mit Spaß und Leidenschaft fit wird! In verschiedenen Locations im pulsierenden Münchner Westen",
+                "p" : "Wir sind die dynamischen Schwestern, die dir zeigen, wie man mit Spaß und Leidenschaft fit wird!",
+                "pLang" : "Wir sind die dynamischen Schwestern, die dir zeigen, wie man mit Spaß und Leidenschaft fit wird! In verschiedenen Locations im pulsierenden Münchner Westen",
                 "buttonCourses" : { "link" : "/courses", "text" : "Unsere Kersplan" },
                 "buttonContact" : { "link" : "/contact", "text" : "Contact Us" }
             },
             "about" : {
-                "img" : "/About.png",
+                "img" : "/About.PNG",
                 "title" : "About Us",
                 "text" : "Wir sind die dynamischen Schwestern, die dir zeigen, wie man mit Spaß und Leidenschaft fit wird! In verschiedenen Locations im pulsierenden Münchner Westen erwarten dich nicht nur effektive Workouts, sondern auch eine freundliche und familiäre Atmosphäre, in der du dich sofort wohlfühlst. Lass uns gemeinsam deine Fitnessziele erreichen und dabei jede Menge Spaß haben"
             }

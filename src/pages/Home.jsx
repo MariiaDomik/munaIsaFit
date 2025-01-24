@@ -7,6 +7,7 @@ import AdresseListSection from '../components/AdresseListSection';
 import CoursesListSection from '../components/CoursesListSection';
 import '../css/Home.css'
 import MapComponent from '../components/MapComponent';
+import PartnersListSection from '../components/PartnersListSection';
 
 
 function Home() {
@@ -17,13 +18,17 @@ function Home() {
   const contentDataManager = new ContentDataManager();
   const locations = contentDataManager.getLocations();
   const courses = contentDataManager.getCourses();
+  const partners = contentDataManager.getPartners();
+
 
   return (
     <div>
         <Hero {...heroData} />
         <AboutSection {...aboutData} className="about-section" />
-        <AdresseListSection locations={locations} />
         <CoursesListSection courses={courses} />
+        <AdresseListSection locations={locations} />
+        <MapComponent locations={locations} />
+        <PartnersListSection partners={partners} />
     </div>
   )
 }

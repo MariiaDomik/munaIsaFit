@@ -5,7 +5,7 @@ import AdresseCard from './AdresseCard';
 function AdresseListSection(props) {
     const { locations } = props;
   return (
-    <section className='cards-container adresse-section'>
+    <div className='adresse-section'>
         <h2>Orten</h2>
         <ul>
             { locations.map((adresse) => (
@@ -14,7 +14,7 @@ function AdresseListSection(props) {
             ))}
           </ul>  
         
-    </section>
+    </div>
   )
 }
 

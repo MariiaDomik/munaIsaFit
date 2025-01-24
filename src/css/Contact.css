@@ -1,6 +1,18 @@
 
+.contact-form {
+    color: grey;
+}
+.contact-form-container span {
+    color: red;
+}
+
 @media (min-width: 768px) {
-    .contact-form {
+    .contact-form-container {
         columns: 2;
+    }
+
+    .contact-form-part-2,
+    .contact-form-part-1 {
+        height: 100%;
     }
 }

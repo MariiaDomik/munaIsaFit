@@ -17,4 +17,7 @@ export default class ContentDataManager {
     getEmails() {
         return this.data.emails;
     }
+    getPartners() {
+        return this.data.partners;
+    }
 }

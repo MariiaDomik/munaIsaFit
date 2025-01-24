@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import useCourseData from "../utils/useCourseData";
 import { getGruppedSchedule, getSchedule } from "../utils/courseUtils";
 import CourseDatails from "./CourseDatails";
+import { Link } from "react-router-dom";
 
 function CourseSchedule() {
   const data = useCourseData();
@@ -22,6 +23,8 @@ function CourseSchedule() {
   return (
     <div>
       <h2>Unsere Kursplan</h2>
+      <p>Du könntest unseren Kursplan als PDF File herunterladen</p>
+      <Link className="button" to='/public/KursübersichtaktuellJanuar2025.pdf' download={'KursübersichtaktuellJanuar2025.pdf'}>Download als PDF</Link>
       {
       Object.entries(gruppedSchedule).map(([dayName, courses]) => (
         <div key={dayName}>

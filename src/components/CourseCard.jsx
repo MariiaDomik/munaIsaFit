@@ -15,7 +15,7 @@ function CourseCard(props) {
       {/* <button onClick={() => setShowModal(true)}>Подробнее</button> */}
 
       {/* {showModal && <CourseModal course={course} onClose={() => setShowModal(false)} />} */}
-      <button><Link to={`/courses/${course.id}`} state={{course: {course}}}>Mehr erfahren</Link></button>
+      <Link className='card-link' to={`/courses/${course.id}`} state={{course: course}}><span className='desktop'>Mehr erfahren</span></Link>
     </div>
   )
 }

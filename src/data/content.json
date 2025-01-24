@@ -49,8 +49,11 @@
           "email" : "2",
           "url" : ""  }
     ],
-    "partner" : [
-        { "name" : "Feizeit Sport", "logo" : "", "url" : "" }
+    "partners": [
+        { "id": "1", "url": "https://www.zumba.com/de-DE/p/muna-hebeisen/1714589", "title": "Zumba", "logo": "/zumba.png"},
+        { "id": "2", "url": "https://strong.zumba.com/de-DE/p/Isabella_Bakirman_Goethe/1714573", "title": "Strong Nation", "logo": "/strongNationLogo.jpg"},
+        { "id": "3", "url": "https://www.muenchen.de/sites/default/files/2024-04/Broschu%CC%88re%20FiP_2024_web_0.pdf", "title": "Freizeit Sport", "logo": "/freizeitSport.jpg"},
+        { "id": "4", "url": "https://bewegungundernaehrung.de/?page_id=24", "title": "Bewegung", "logo": "/beLogo.jpg"}
     ], 
     
     "schedule" : [
@@ -63,7 +66,7 @@
       { "id": "7", "courseId" : "4", "day" : "donnerstag", "time": "19:15-19:50 Uhr", "status": "0", "locationId": "3", "price" : ""  },
       { "id": "8", "courseId" : "3", "day" : "donnerstag", "time": "19:20-20:30 Uhr", "status": "0", "locationId": "3", "price" : ""  },
       { "id": "9", "courseId" : "6", "day" : "freitag", "time": "18:15-19:30 Uhr", "status": "1", "locationId": "3", "price" : "15x6€ = 90€"  },
-      { "id": "9", "courseId" : "1", "day" : "freitag", "time": "19:00-20:45 Uhr", "status": "0", "locationId": "3", "price" : ""  }
+      { "id": "10", "courseId" : "1", "day" : "freitag", "time": "19:00-20:45 Uhr", "status": "0", "locationId": "3", "price" : ""  }
   ]
 }
 }

@@ -59,43 +59,10 @@ const ContactForm = ({ data, title, course }) => {
 
   return (
     <form className="contact-form" onSubmit={handleSubmit}>
-      <h1>{title}</h1>
-      <div className="first-row">
-        <label htmlFor="first-name">First Name</label>
-        <input
-          type="text"
-          id="first-name"
-          className="input-text"
-          ref={firstNameRef}
-        />
-        
-        <label htmlFor="last-name">Last Name</label>
-        <input
-          type="text"
-          id="last-name"
-          className="input-text"
-          ref={lastNameRef}
-        />
-      </div>
-      <div className="second-row">
-        <label htmlFor="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          className="input-text"
-          ref={emailRef}
-        />
-
-        <label htmlFor="title">Subject</label>
-        <input
-          type="text"
-          id="title"
-          className="input-text"
-          ref={titleRef}
-        />
-      </div>
-
-      {course && (
+      
+      <h1>Contact uns</h1>
+      <p>Zögere nicht, uns zu schreiben! Du kannst den Kurs auswählen, der dich interessiert, oder das Feld einfach freilassen<br/><br/></p>
+      <div>{course && (
         <div className="third-row">
           <label>Dieser Kurs wird ausgewählt</label>
           <CourseDatails course={course} />
@@ -103,7 +70,7 @@ const ContactForm = ({ data, title, course }) => {
       )}
       {!course && (
         <div className="third-row">
-          <label htmlFor="courses">Type auswählen</label>
+          <label htmlFor="courses">Type auswählen (nicht erforderlich)</label>
           <select
             id="courses"
             className="input-text"
@@ -136,7 +103,46 @@ const ContactForm = ({ data, title, course }) => {
           {selectedCourse && <CourseDatails course={selectedCourse} />}
         </div>
       )}
+</div>
+<div className="contact-form-container">
+      <div className="contact-form-part-1">
+      <div className="first-row">
+        <label htmlFor="first-name">First Name<span> *</span></label>
+        <input
+          type="text"
+          id="first-name"
+          className="input-text"
+          ref={firstNameRef}
+        />
+        
+        <label htmlFor="last-name">Last Name</label>
+        <input
+          type="text"
+          id="last-name"
+          className="input-text"
+          ref={lastNameRef}
+        />
+      </div>
+      <div className="second-row">
+        <label htmlFor="email">Email<span> *</span></label>
+        <input
+          type="email"
+          id="email"
+          className="input-text"
+          ref={emailRef}
+        />
 
+        <label htmlFor="title">Subject</label>
+        <input
+          type="text"
+          id="title"
+          className="input-text"
+          ref={titleRef}
+        />
+      </div>
+      </div>
+      <div className="contact-form-part-2">
+      
       <div className="forth-row">
         <label htmlFor="message">Message</label>
         <textarea
@@ -147,6 +153,8 @@ const ContactForm = ({ data, title, course }) => {
           ref={messageRef}
         ></textarea>
         <button type="submit">Senden</button>
+      </div>
+      </div>
       </div>
     </form>
   );

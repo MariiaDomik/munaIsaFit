@@ -1,17 +1,17 @@
 import React from 'react'
 
 function AboutSection(props) {
-    const { title, img, text } = props;
+    const { title, img, text, page } = props;
   return (
-    <section className='about-section' id='about'>
+    <div className='about-section' id='about'>
         <div className='about'>
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         
             <p>{text}</p>
         </div>
         
         <div className='img' style={{backgroundImage: `url(${img})`}}></div>
-    </section>
+    </div>
   )
 }
 

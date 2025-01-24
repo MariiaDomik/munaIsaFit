@@ -15,8 +15,9 @@ const ScheduleList = ( props) => {
     return (
       (!filters.category || course.courseId === filters.category) &&
       (!filters.day || course.day === filters.day) &&
-      (!filters.location || course.locationId === filters.location) &&
-      (!filters.availableOnly || course.status === "1")
+      (!filters.location || course.locationId === filters.location) 
+    //   &&
+    //   (!filters.availableOnly || course.status === "1")
     );
   });
 

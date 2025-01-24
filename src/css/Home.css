@@ -16,20 +16,22 @@ main section {
   }
 
   .adresse-section {
-    background-image: var( --gradient-secondary);
+    margin: 50px 0;
   }
 
 .card {   
     display: flex;
     width: 90%;
-    height: 200px;
+    height: 250px;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    
+    /* align-items: center; */
+    /* padding: 10px; */
     gap: 10px;
     background-size: cover;
     transition: 0.5s ease;
+    padding-bottom: 10px;
   }
 
   .card:hover {
@@ -41,21 +43,90 @@ main section {
   }
 
   .card h3 {
-    font-size: 32px;
-    font-weight: 400;
+    width: 100%;
+    padding-left: 1.8rem;
+    height: 5rem;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    background-image: var(--gradient-pink);
   }
+
+  .card button {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+
+  .card .card-link {
+    background-image: url('/public/forward.svg');
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    width: 100%;
+    height: 1.5rem;
+    color: white;
+    padding-right: 50px;
+    text-align: right;
+  }
+
+  .card .card-link:hover {
+    color: #AE68FA;
+    
+    background-image: url('/public/forward-lila.svg');
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .partners-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 0;
+  }
+  .partner a {
+    width: fit-content;
+  }
+  .partner p {
+    width: 100px;
+  }
+  .partner img {
+    width: 100px;
+  }
+
 
   @media (min-width: 768px) {
 
+    .desktop {
+      display: inline-block;
+    }
     .card {
       height: 400px;
-      width: 300px;
     }
 
     .card p {
       display: block;
       text-overflow: clip;
-      background-color: rgba(248, 249, 249, 0.74);
+      background-color: rgba(255, 255, 255, 0.74);
       padding: 10px 15px;
+    }
+    .partners-container {
+      justify-content: space-evenly;
+  }
+  }
+
+  @media (min-width: 1024px) {
+    .card {
+      width: 45%;
+      border-radius: 0 50px 0 50px;
+    }
+
+    #courses .cards-container {
+      padding: 30px 0;
+      gap: 40px;
     }
   }
