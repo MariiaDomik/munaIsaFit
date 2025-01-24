@@ -1,11 +1,24 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  gap: 1rem;
+}
+
 footer ul {
   list-style: none;
-  text-align: center;
-  display: inline-block;
+  padding: 0;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .footer-links li {
   display: inline-block;
-  padding: 8px 20px;
+  padding: 8px 0;
 }
 
 .footer-social {
@@ -25,4 +38,11 @@ footer ul {
 
 .logo-footer {
   width: 130px;
+}
+
+@media (min-width: 768px) {
+  .footer-links {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }

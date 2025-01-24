@@ -27,7 +27,7 @@
             }
         },
         "footer" : {
-            "logo" : "/Muna.png",
+            "logo" : "/Muna2.PNG",
             "links" : [
                 { "text": "Home", "link": "/" },
                 { "text": "About Us", "link": "/about" },

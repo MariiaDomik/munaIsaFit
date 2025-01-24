@@ -12,7 +12,7 @@ function AboutSection(props) {
         </div>
         
         <div className='img' style={{backgroundImage: `url(${img})`}}></div>
-        <div className='line'><Link className='card-link' to={`/about`}><span className=''>Mehr erfahren</span></Link></div>
+        <div className='button'><Link className='card-link' to="https://www.munaisafit.de/"><span className=''>Mehr erfahren</span></Link></div>
     </div>
   )
 }

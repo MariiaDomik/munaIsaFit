@@ -25,13 +25,17 @@ const SchedulePage = () => {
 
   return (
     <div className="schedule-page">
-      <article>
+      <section>
+        <article>
       <h1>Unsere Kursplan</h1>
       <p>Du könntest unseren Kursplan als PDF File herunterladen</p>
       <p><Link className="button" to='/KursübersichtaktuellJanuar2025.pdf' download={'KursübersichtaktuellJanuar2025.pdf'}>Download als PDF</Link>
       </p>
       </article>
+      </section>
+      <section>
       <Filters filters={filters} data={coursesData} onFilterChange={handleFilterChange} />
+      </section>
       <ScheduleList filters={filters} data={coursesData} />
     </div>
   );
