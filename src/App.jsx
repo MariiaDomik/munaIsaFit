@@ -18,7 +18,7 @@ function App() {
     const footerData = staticDataManager.getFooterData();
   
   return (
-    <Router>
+    <Router basename="/munaIsaFit">
       <Navigation {...headerData} />
       <main>
         <Routes>
