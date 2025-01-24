@@ -14,7 +14,7 @@ function Navigation(props) {
 
   return (
     <nav>
-      <img src={logo} alt='logo'/> 
+      <img src={process.env.PUBLIC_URL + logo} alt='logo'/> 
       <button className='burger-button ' onClick={handleToggle}></button>
       <div className='nav-mobile'>
          { navbarOpen && (
