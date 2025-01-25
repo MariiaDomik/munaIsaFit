@@ -29,13 +29,13 @@ function App() {
       <Navigation {...headerData} />
       <main>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/courses' element={<Schedule />} />
-          <Route path='/locations' element={<Locations />} />
-          <Route path='/courses/:id' element={<CourseDetails />} />
-          <Route path='/contact/anmeldung/:id' element={<Contact />} />
+          <Route path='' element={<Home />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='about' element={<About />} />
+          <Route path='courses' element={<Schedule />} />
+          <Route path='locations' element={<Locations />} />
+          <Route path='courses/:id' element={<CourseDetails />} />
+          <Route path='contact/anmeldung/:id' element={<Contact />} />
         </Routes>
         </main>
       <Footer {...footerData} />
