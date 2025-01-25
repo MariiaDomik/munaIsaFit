@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import '../css/Navigation.css'
@@ -13,6 +13,9 @@ function Navigation(props) {
   }
 
   const basePath = import.meta.env.VITE_BASE_PATH;
+  useEffect(() => {
+    document.documentElement.style.setProperty("--base-path", basePath);
+  }, [basePath]);
 
   return (
     <nav>

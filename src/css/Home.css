@@ -60,7 +60,7 @@ main section {
   }
 
   .card .card-link {
-    background-image: url('/public/forward.svg');
+    background-image: url('forward.svg');
     background-position:right;
     background-repeat: no-repeat;
     background-size: 50px;
@@ -74,7 +74,7 @@ main section {
   .card .card-link:hover {
     color: #AE68FA;
     
-    background-image: url('/public/forward-lila.svg');
+    background-image: url('forward-lila.svg');
   }
 
   .desktop {

@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: "/munaIsaFit/",  
   build: {
-    outDir: 'docs',
+      outDir: 'docs',
   }
 })

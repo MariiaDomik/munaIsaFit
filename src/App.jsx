@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState , useEffect} from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
@@ -19,6 +19,10 @@ function App() {
   
    // Dynamically set basename based on the environment
    const basePath = import.meta.env.VITE_BASE_PATH;
+
+   useEffect(() => {
+    document.documentElement.style.setProperty("--base-path", basePath);
+  }, [basePath]);
   
   return (
     <Router basename={basePath}>

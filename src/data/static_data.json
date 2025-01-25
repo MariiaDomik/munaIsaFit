@@ -21,7 +21,7 @@
                 "buttonContact" : { "link" : "/contact", "text" : "Contact Us" }
             },
             "about" : {
-                "img" : "/About.PNG",
+                "img" : "About.PNG",
                 "title" : "About Us",
                 "text" : "Wir sind die dynamischen Schwestern, die dir zeigen, wie man mit Spaß und Leidenschaft fit wird! In verschiedenen Locations im pulsierenden Münchner Westen erwarten dich nicht nur effektive Workouts, sondern auch eine freundliche und familiäre Atmosphäre, in der du dich sofort wohlfühlst. Lass uns gemeinsam deine Fitnessziele erreichen und dabei jede Menge Spaß haben"
             }

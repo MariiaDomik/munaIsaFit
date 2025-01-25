@@ -32,11 +32,11 @@ nav button {
     right: 20px;
 }
 .burger-button {
-   background-image: url('/public/burger-menu.svg');
-   
-}
+    background-image: url('burger-menu.svg');  
+ }
+ 
 .close-mobile-menu-button {
-    background-image: url('/public/close-burger.svg');
+    background-image: url('close-burger.svg');
 }
 
 .nav-mobile-menu {
