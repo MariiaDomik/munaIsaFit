@@ -31,7 +31,7 @@ function Navigation(props) {
       </div>
       <div className='nav-desktop'>
         <MenuItems navLinks={navLinks} button={button} onClick={{}}/>
-        {/* <Link className='button' to={button.link}>{button.text}</Link> */}
+        { <Link className='button' to={button.link}>{button.text}</Link> }
         </div>
     </nav>
   )
